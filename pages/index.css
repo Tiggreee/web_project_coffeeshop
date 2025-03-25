@@ -100,6 +100,7 @@ h6 {
   line-height: 76px;
   font-weight: 500;
   margin-top: 183px;
+  margin-left: 80px;
 }
 
 .header__title .highlight {
@@ -110,9 +111,9 @@ h6 {
 
 .header__description {
   max-width: 683px;
-  left: 80px;
   top: 291px;
   margin-top: 28px;
+  left: 80px;
 }
 
 .header__image {
@@ -139,16 +140,30 @@ h6 {
   margin-left: 80px;
 }
 
-.header__address {
-  text-align: right;
-  color: #6f6f6f;
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 124px;
+  margin-right: 80px;
   margin-bottom: 0px;
+  margin-left: 80px;
 }
 
-.header__schedule {
-  text-align: left;
-  color: #6f6f6f;
-  margin-bottom: 0px;
+.header__footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.header__paragraph {
+  margin: 0;
+}
+
+.header__footer-right {
+  text-align: right;
+  align-self: flex-end;
 }
 
 .recipes {

@@ -40,8 +40,9 @@ h6 {
 
 .header__content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
   padding: 0px 80px;
 }
@@ -100,7 +101,7 @@ h6 {
   line-height: 76px;
   font-weight: 500;
   margin-top: 183px;
-  margin-left: 80px;
+  margin-left: 0;
 }
 
 .header__title .highlight {
@@ -111,9 +112,8 @@ h6 {
 
 .header__description {
   max-width: 683px;
-  top: 291px;
   margin-top: 28px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .header__image {

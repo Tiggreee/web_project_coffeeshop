@@ -38,15 +38,6 @@ h6 {
   position: relative;
 }
 
-.header__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
-  padding: 0px 80px;
-}
-
 .nav {
   display: flex;
   justify-content: flex-start;

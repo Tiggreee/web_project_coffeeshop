@@ -92,7 +92,7 @@ h6 {
   line-height: 76px;
   font-weight: 500;
   margin-top: 183px;
-  margin-left: 0;
+  margin-left: 40px;
 }
 
 .header__title .highlight {
@@ -104,7 +104,7 @@ h6 {
 .header__description {
   max-width: 683px;
   margin-top: 28px;
-  margin-left: 0;
+  margin-left: 40px;
 }
 
 .header__image {
@@ -137,9 +137,9 @@ h6 {
   align-items: flex-end;
   position: relative;
   margin-top: 124px;
-  margin-right: 80px;
+  margin-right: 40x;
   margin-bottom: 0px;
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 .header__footer-left {
@@ -217,4 +217,104 @@ h6 {
   font-weight: 500;
   font-family: "Inter";
   font-style: normal;
+}
+
+.reservation {
+  min-height: 720px;
+  max-height: 900px;
+  background-image: url("/images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #d9e7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.reservation__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 385px;
+  margin: 0 auto;
+  gap: 32px;
+  margin-bottom: 120px;
+}
+
+.reservation__input_name {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation__input_diners {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation__input_date {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.reservation__input_email {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation__submit {
+  margin-top: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  background-color: #0a2750;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  max-width: 385px;
+  height: 60px;
+}
+
+.reservation__submit:hover {
+  background-color: #004080;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reservation__input_terms {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-items: center;
+}
+
+.reservation__input_checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.reservation__input_checkbox_label {
+  font-size: 14px;
+  color: #333;
 }

@@ -221,7 +221,6 @@ h6 {
 
 .reservation {
   min-height: 720px;
-  max-height: 900px;
   background-image: url("/images/background_reservation.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -239,11 +238,10 @@ h6 {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 100px 0 80px 0;
 }
 
-.reservation__fieldset {
+.reservation__form {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -254,31 +252,39 @@ h6 {
   margin-bottom: 120px;
 }
 
-.reservation__input_name {
+.reservation__name {
   padding: 8px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.reservation__input_diners {
+.reservation__diners {
   padding: 8px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.reservation__input_date {
+.reservation__date {
   padding: 8px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
-.reservation__input_email {
+.reservation__email {
   padding: 8px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .reservation__submit {
@@ -295,6 +301,7 @@ h6 {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   max-width: 385px;
   height: 60px;
+  width: auto;
 }
 
 .reservation__submit:hover {
@@ -302,19 +309,19 @@ h6 {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.reservation__input_terms {
+.reservation__terms {
   display: flex;
   align-items: center;
   gap: 8px;
   align-items: center;
 }
 
-.reservation__input_checkbox {
+.reservation__checkbox {
   width: 20px;
   height: 20px;
 }
 
-.reservation__input_checkbox_label {
+.reservation__checkbox_label {
   font-size: 14px;
   color: #333;
 }
